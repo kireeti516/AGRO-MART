@@ -1,0 +1,75 @@
+.header {
+  overflow: hidden;
+  background-color:green;
+  padding: 0px 0px;
+    opacity: 1;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+.header a {
+  float: right;
+  color: white;
+    
+  text-align: none;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 30px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+.header a.logo{
+    float:left;
+	width:50px;
+	padding:5px;
+}
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#main {
+    float: none;
+    padding: 16px;
+}
+body {
+   background-image: url("home1.jpg");
+   background-repeat: no-repeat;
+   background-color: #cccccc;
+background-attachment: fixed;
+    background-size: cover;
+}
+.btn-group button {
+    background-color: transparent;
+    border-radius: 10px;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 50px;
+    border-collapse: collapse;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 20; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+.btn-group button:hover {
+    background-color: orangered;
+}
+h1{
+  color:#cccccc;
+  
+  font-size: 40px;
+}
+h3{color:#black;
+  font-family:oblique;
+  font-size: 25px;
+text align:center;}
+marquee{
+	
+  font-size: 50px;
+}
+p {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+  color: #cccc;
+}

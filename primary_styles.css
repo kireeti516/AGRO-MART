@@ -1,0 +1,106 @@
+body
+{
+	padding:0px;
+	margin:0px;
+	background-color: #000080;
+	color: white;
+}
+.title
+{
+	margin-top:50px;
+	color:tomato;
+	font-size:45x;
+	font-family:'Lobster' 
+}
+.selecter
+{
+	width:150px;
+	height:40px;
+	padding:5px;
+	font-family:'Spectral';
+	font-size:15pt;
+	border-radius:10px;
+	background-color:white;
+}
+.selecter:focus
+{
+	outline:none;
+}
+.hint
+{
+	font-size:17pt;
+}
+.date_controller
+{
+	width:150px;
+	padding:6px;
+	border-radius:10px;
+	background-color:#BDBDBD;
+	font-size:15px;
+	display:none;
+}
+.date_controller:focus
+{
+	outline:none;
+}
+.details
+{
+	display:block;
+}
+.btn-get-list
+{
+	width:200px;
+	height:45px;
+	background-color:#00BFA5;
+	border-radius:15px;
+	font-size:13pt;
+	font-weight:bold;
+	font-family:'Old Standard TT';
+	color:white;
+}
+.machinery_title
+{
+	color:white;
+	margin-top:50px;
+	font-size:25pt;
+	font-family:'Old Standard TT';
+}
+.count_input
+{
+	width:50px;
+	height:35px;
+	border-color:#BDBDBD;
+	text-align:center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.count_input:focus
+{
+	outline:none;
+	border-bottom-color:tomato;
+	border-right-color:navy;
+	border-left-color:navy;
+	border-top-color:navy;
+	border-bottom-width:5px;
+}
+.machinery_count
+{
+	display:none;
+}
+.btn
+{
+	height:45px;
+	width:100px;
+	background-color:tomato;
+	color:black;
+	font-weight:bold;
+	font-size:15pt;
+	border-radius:12px;
+	font-family:'Lobster';
+	border-color:tomato;
+	display:none;
+	margin-top:30px;
+}

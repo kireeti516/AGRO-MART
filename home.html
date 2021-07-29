@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Avar</title>
+  <link rel="stylesheet" href="mplogo.css">
+  <link rel="stylesheet" href="mphome.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="padding:0px;margin:0px;">
+  <div class="header">
+    <a href="home.html" class="logo"><img src="AGRO.jpg" width="120"height="60"></a>
+    <div class="header-right">
+      <a class="active" href="sign.html">Logout</a>
+	  <a href="about.html">About us</a>
+	  <a href="model.html">Models</a>
+	   <a href="home.html">Home</a>
+	  
+    </div>
+  </div>
+  <marquee scrollamount="12"> AGRO Toll-Free Number:<a href="tel:+916281438769">1800 143 8769</a></marquee>
+  
+<center>
+<div class="slideshow-container">
+
+<div class="mySlides">
+  
+  <img src="mp1.jpg" width="1350px" height="483px">
+  
+</div>
+
+<div class="mySlides">
+  
+  <img src="mp3.jpg" width="1350px" height="483px">
+  
+</div>
+
+<div class="mySlides">
+  
+  <img src="https://images2.alphacoders.com/901/thumb-1920-901251.jpg" width="1350px" height="483x">
+  
+</div>
+<div class="mySlides">
+  
+  <img src="mp4.jpg" width="1350px" height="483px">
+  
+ </div>
+<div class="mySlides">
+
+  <img src="mp5.jpg" width="1350px" height="483px">
+  
+</div>
+</div>
+</center>
+<br>
+
+<div style="text-align:center">
+<span class="dot"></span>  
+<span class="dot"></span>  
+<span class="dot"></span>  
+<span class="dot"></span>  
+<span class="dot"></span>  
+  <a href="model.html" style="text-decoration:none;"><button type="submit" class="btn">Shop Now </button>
+  <a href="add_machinery.php" style="text-decoration:none;" target="_blank"><button type="submit" class="btn" style="width:200px;margin-left:20px;">Add Machinery </button>
+</a>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-2">
+				<img src="AGRO.jpg">
+				<p size="10px">Agro machinery mart is a web application We have developed a user friendly application. This system is helpful for farmers via supplying  advanced machines to their agricultural work.
+        </p>
+			</div>
+			<div class="footer-col-3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>	
+			</div>
+			<div class="footer-col-4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>      
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>youtube</li>
+				</ul>	
+			</div>
+		</div>
+	</div>
+</div>
+  
+</body>
+<script>
+
+</script>
+</html>
